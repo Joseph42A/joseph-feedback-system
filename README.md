@@ -8,7 +8,7 @@ Teachers can manage the feedback for theire subject with this easy to use web on
   - Finaly run the two directories in the command line write down npm start
   
   
- #Note
+ # Note
  This is app is created using MERN stack, wich is contain, React.js, Node.js, Express.js, Mongodb database
  
  # Live Demo
