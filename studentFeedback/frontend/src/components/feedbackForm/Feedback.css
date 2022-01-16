@@ -1,0 +1,91 @@
+.feedbackDesc {
+  padding: 2rem;
+  padding-bottom: 3rem;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  background: #3a876b;
+  color: white;
+  margin-bottom: 5rem;
+}
+
+.feedbackDesc > h3 {
+  padding-bottom: 1rem;
+}
+
+.questionShowCase {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 4rem;
+}
+
+.questionShowCase > h2 {
+  border-bottom: 1px solid black;
+  padding: 10px 0;
+}
+
+.feedBackQuestions > div {
+  background: #3a876b;
+  padding: 2rem 3rem;
+  margin: 2rem 0;
+  color: white;
+  border-radius: 10px;
+}
+
+.feedBackQuestions > div > p {
+  padding: 10px;
+
+  font-size: 1.1rem;
+}
+.feedBackQuestions > div > .ques {
+  padding: 1rem 0;
+}
+
+.rating {
+  background: rgba(71, 196, 151, 0.57);
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.rating > span > input {
+  color: orange;
+}
+
+.feedbackBtnContainer {
+  text-align: right;
+  background: transparent !important;
+  padding: 0 !important;
+}
+
+.feedbackNextBtn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  background: #349ea5;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 6px;
+}
+.feedbackNextBtn:hover {
+  background: #44b6be;
+}
+
+.feedbackAuth {
+  padding: 0 2rem;
+}
+
+.btnUserLoggedIn {
+  margin: 1rem 0;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: none;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  background: #349ea5;
+}

@@ -1,0 +1,28 @@
+.CreateStudentForm {
+  flex: 9;
+  margin: 5rem 2rem;
+}
+
+.createStudentFormContainer > .createStudentForm > h2 {
+  text-transform: uppercase;
+  border-bottom: 1px solid #4d967c;
+  padding-bottom: 10px;
+}
+
+.createStudentFormContainer > form > button {
+  margin: 2rem 0;
+  padding: 10px 20px;
+  background: #4bb8c0;
+  outline: none;
+  border: none;
+  font-size: large;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.createStudentFormContainer > form > button:hover {
+  background: white;
+  color: #4bb8c0;
+}

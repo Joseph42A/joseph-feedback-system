@@ -1,0 +1,44 @@
+.sidebar {
+  flex: 3;
+  height: 100vh;
+
+  background: #3a876b;
+  color: white;
+}
+.sidebar > nav {
+  text-align: center;
+  margin-top: 2rem;
+}
+.sidebar > nav > ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  height: 100%;
+}
+
+.sidebar > nav > ul > li {
+  padding: 1rem 0;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  color: white;
+}
+
+.sidebar > nav > ul > li > a,
+.sidebar > nav > ul > li > span {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 500;
+  padding: 10px;
+  transition: all 0.3s ease-out;
+  border-radius: 10px;
+}
+
+.sidebar > nav > ul > li > a:hover,
+.sidebar > nav > ul > li > span:hover {
+  background-color: white;
+  color: #3a876b;
+}
+
+.sidebar > nav > ul > li > a:active {
+  text-decoration: underline;
+}

@@ -1,0 +1,32 @@
+.mainContainer {
+  padding: 1rem;
+}
+.mainContainer > .mainTop > h3 {
+  padding: 3rem 0;
+}
+
+.mainContainer > .mainTop > a > button {
+  border: none;
+  outline: none;
+  padding: 10px 1rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: white;
+  background: #349ea5;
+  cursor: pointer;
+}
+
+.mainContainer > .mainTop > button:hover {
+  background: #4dc5ce;
+}
+.mainContainer > .mainBtn {
+  padding: 1rem;
+  width: 60%;
+  padding-left: 3rem;
+}
+.mainContainer > .mainBtn > img {
+  width: 100%;
+  max-height: 80vh;
+  object-fit: cover;
+}

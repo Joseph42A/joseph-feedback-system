@@ -1,0 +1,119 @@
+.students {
+  flex: 9;
+  /* background: linear-gradient(
+    88.62deg,
+    rgba(13, 209, 139, 0.26) 51.18%,
+    rgba(13, 209, 139, 0) 148.76%
+  ); */
+
+  margin: 5rem 2rem;
+}
+
+.studentTop > h1 {
+  padding-bottom: 10px;
+}
+.studentTop > p {
+  padding-bottom: 10px;
+}
+.studentTop > a > button {
+  margin: 1rem 0;
+  padding: 10px 20px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background: #4d967c;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+}
+
+.studentTop > a > button:hover {
+  background: #67b99c;
+}
+
+.studentBottom {
+  margin: 1rem 0;
+}
+.studentBottom > .inputSetter {
+  border-bottom: 1px solid black;
+  padding: 10px 0;
+}
+
+.studentHeadersForm {
+  margin: 1rem 0;
+}
+
+.studentHeadersForm > span {
+  display: inline-block;
+  padding-right: 40px;
+  text-transform: uppercase;
+  font-weight: 400;
+  background: transparent;
+  color: gray;
+  margin: 3px 0;
+}
+
+.ps {
+  width: 100px !important;
+}
+
+.stList {
+  background: rgba(71, 196, 151, 0.57);
+  padding: 10px;
+  border-radius: 10px;
+  margin: 1rem 0;
+}
+.stList > span {
+  display: inline-block;
+  padding-right: 40px;
+  margin: 3px 0;
+}
+.stList > input {
+  margin-right: 20px;
+}
+
+.stdlt {
+  color: red;
+  cursor: pointer;
+}
+
+.inputSetter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.inputSetter > form > input {
+  padding: 6px;
+  border: none;
+  outline: none;
+  background: #4d967c;
+  color: white;
+  margin-right: 4px;
+  margin-bottom: 2px;
+}
+.inputSetter > form {
+  margin: 1rem 0;
+}
+.inputSetter > form > input::placeholder {
+  color: white;
+  font-size: 12px;
+}
+
+.inputSetter > form > button {
+  padding: 6px;
+
+  border: none;
+  outline: none;
+  background: #349ea5;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.inputSetter > form > button:hover {
+  background: #3eabb3;
+}
