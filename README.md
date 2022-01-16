@@ -9,7 +9,9 @@ Teachers can manage the feedback for theire subject with this easy to use web on
   
   
  # Note
- This is app is created using MERN stack, wich is contain, React.js, Node.js, Express.js, Mongodb database
+ This is app is created using MERN stack, wich is contain, React.js, Node.js, Express.js, Mongodb database.
+ And also using React-Redux for state managmenet for the entire app.
+ As well as contain jsonwebtoken user authentication.
  
  # Live Demo
  https://joseph-student-feedback.netlify.app/
